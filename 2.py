@@ -23,9 +23,9 @@ def ssh_connect(host, user, key):
 
 if __name__=='__main__':
     #user = input("Username:")
-    user = "ubnt"
+    user = "user_name"
     #key = input("Public key full path:")
-    key = "Mnf_city@P@ssw0rd"
+    key = "password"
     host = input("Target Hostname:")
     ssh_connect(host, user, key)
 
